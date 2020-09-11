@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FilteringController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/filter', 'FilteringController@index');
+Route::get('/filter', [FilteringController::class, 'index']);
