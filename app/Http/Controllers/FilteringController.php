@@ -8,7 +8,7 @@ class FilteringController extends Controller
 {
     public function index()
     {
-        $swearWordsPath = public_path('data/swear-words.txt');
+        $swearWordsPath = storage_path('data/swear-words.txt');
         $handle = SensitiveHelper::init()->setTreeByFile($swearWordsPath);
         $content = '只有女生可以罵幹你娘，男生你給我喊幹你爸！';
         echo '原始內容：' . $content . PHP_EOL;
