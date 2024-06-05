@@ -1,4 +1,4 @@
-# Laravel 10 基於確定性有限自動機演算法實現敏感詞過濾
+# Laravel 11 基於確定性有限自動機演算法實現敏感詞過濾
 
 引入 lustre 的 php-dfa-sensitive 套件來擴增基於確定性有限自動機演算法實現敏感詞過濾，藉由使用一個敏感詞清單，之後對內容進行比對，如果有符合的內容則進行內容過濾。
 
@@ -24,5 +24,5 @@ $ php artisan migrate
 - 你可以經由 `/filter` 來進行內容過濾。
 
 ## 畫面截圖
-![](https://i.imgur.com/0RONfeE.png)
+![](https://i.imgur.com/kLoVugh.png)
 > 設定敏感詞清單來過濾含有敏感詞的內容
